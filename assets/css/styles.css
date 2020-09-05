@@ -119,9 +119,9 @@ margin-bottom: 40px;
     color: #9B9B9B;
 }
 
-.form-login .form-group .form-control:focus{
+.form-control:focus{
     border-color: #DB3022;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(219,48,34, 0.5);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(219,48,34, 0.6);
 
 }
 
@@ -178,6 +178,8 @@ margin-bottom: 40px;
     color: #DB3022;
 }
 
+/* Form-register*/
+
 .register form{
     margin-bottom: 50px;
 }
@@ -200,3 +202,94 @@ margin-bottom: 40px;
 .register .form-login button{
     margin-top: 50px;
 }
+
+/* navbar */
+
+.navbar {
+    padding: 28px 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+
+.form-inline{
+   margin-left: 60px; 
+}
+
+.navbar .form-inline input{
+    width: 300px;
+    border: 1px solid #8E8E93;
+    border-radius: 23px;
+    padding: 9px 0px 9px 20px;
+    height: 40px;
+    border-right: none;
+}
+
+.navbar .form-inline input:focus,
+.navbar .form-inline input:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .form-inline input::placeholder{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.navbar .form-inline .input-group .input-group-append button{
+    background: #FFFFFF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #8E8E93;
+    
+}
+
+.navbar .form-inline .input-group .input-group-append button:focus{
+    outline: none;
+}
+
+.navbar .form-inline img{
+    margin-right: 20px;
+}
+
+.navbar .form-inline .input-group-append{
+    width: 40px;
+}
+
+.navbar .form-inline .filter{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+    padding-left: 9px;
+    padding-bottom: 4px;
+}
+.navbar .form-inline .filter:focus,
+.navbar .form-inline .filter:active{
+    outline: none;
+    background: #ece6e6;
+}
+.navbar .form-inline .filter img{
+    height: 20px;
+    width: 20px;
+}
+
+.navbar .navbar-nav .nav-item .btn{
+    background: #DB3022;
+    border-radius: 25px;
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.navbar .navbar-nav .nav-item .cart-logo{
+    margin-right: 40px;
+    padding-top: 7px;
+}
+
