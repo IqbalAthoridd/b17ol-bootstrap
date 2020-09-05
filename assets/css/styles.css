@@ -177,3 +177,26 @@ margin-bottom: 40px;
     line-height: 14px;
     color: #DB3022;
 }
+
+.register form{
+    margin-bottom: 50px;
+}
+
+.form-login .btn-success.btn-register{
+    border-radius: 25px;
+    background: #DB3022;
+    height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #DB3022;
+    color: #ffffff;
+}
+
+.register .form-login button{
+    margin-top: 50px;
+}
