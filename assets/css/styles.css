@@ -206,7 +206,7 @@ margin-bottom: 40px;
 /* navbar */
 
 .navbar {
-    padding: 28px 150px;
+    padding: 28px 120px;
     background: #FFFFFF;
     box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
 }
@@ -292,4 +292,97 @@ margin-bottom: 40px;
     margin-right: 40px;
     padding-top: 7px;
 }
+.nav{
+    margin-bottom: 47px;
+}
+
+.container .row.slider{
+    margin-top: 47px;
+    margin-bottom: 60px;
+}
+
+.container .row.label{
+    margin-bottom: 25px;
+}
+
+.container .row.cards .card{
+    display: inline-block;
+    /* border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    padding-bottom: 30px;
+    border-radius: 8px;
+    width: 208px;
+    height: 278px;
+    margin: 0px 10px 20px 0px;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+
+.container .row.cards .card img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.container .row.cards .card .card-body{
+    padding: 0;
+}
+
+.container .row.cards .card .card-body .isi{
+    width: 184px;
+    margin: 10px 12px 6px 12px;
+}
+
+.container .row.cards .card .card-body .isi.title{
+    font-family: metropolis3;
+    ont-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container .row.cards .card .card-body .isi.price-title{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #DB3022;
+}
+
+.container .row.cards .card .card-body .isi.brand-title{
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9b9b9b;
+}
+
+.container .row.cards .card .card-body .isi.rating img{
+    margin-left: 2px;
+}
+.container .row.cards .card .card-body .isi.rating span{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 8px;
+    color: #9b9b9b;
+}
+
+.container .row.label span{
+    font-family: Metropolis3;
+    font-size: 34px;
+    line-height: 34px;
+    color: #222222;
+}
+
+.container .row.label p{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9b9b9b;
+}
+
 
