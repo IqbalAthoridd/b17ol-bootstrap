@@ -216,7 +216,7 @@ margin-bottom: 40px;
 }
 
 .navbar .form-inline input{
-    width: 300px;
+    /* width: 300px; */
     border: 1px solid #8E8E93;
     border-radius: 23px;
     padding: 9px 0px 9px 20px;
