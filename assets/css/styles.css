@@ -550,7 +550,7 @@ margin-bottom: 40px;
     width: 36px;
 }
 
-.container .row.cart2 .jumbotron.produk .button-add .btn.min{
+.container .btn.min{
     margin-right: 17px;
     background: #D5D5D5;
     padding: 2px 20px 30px 10px;
@@ -563,7 +563,7 @@ margin-bottom: 40px;
     line-height: 16px;
     color: #222222;
 }
-.container .row.cart2 .jumbotron.produk .button-add .btn.plus{
+.container .btn.plus{
     padding-top: 0;
     margin-left: 17px;
     padding-left: 10px;
@@ -628,4 +628,196 @@ margin-bottom: 40px;
 .container .btn-buy .btn:focus{
     background: #a7271b;
     box-shadow: none;
+}
+.container .row.detail-produk .banner img {
+    width: 263px;
+    height: 329px;
+
+}
+
+.container .row.detail-produk .produk-title .brand-title span{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+    display: block;
+}
+
+.container .row.detail-produk .produk-title span.brand-info{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9b9b9b;
+    
+}
+
+.container .checked{
+    color:#FFBA49
+}
+.rate{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 8px;
+    color: #9b9b9b;
+}
+
+.text-title-detail{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9b9b9b;
+}
+
+.num-price{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 33px;
+    color: #222222;
+}
+
+.text-title-detail.c{
+    font-family: metropolis3;
+    color: #222222;
+}
+
+.btn-color input[type="radio"]{
+    width: 36px;
+    height: 36px;
+}
+
+.btn-size .btn{
+    height: 36px;
+    width: 36px;
+}
+
+.btn-size .btn.btn-min{
+    margin-right: 17px;
+    background: #D5D5D5;
+    padding: 2px 20px 30px 10px;
+}
+
+.btn-size .btn.btn-plus{
+    padding-top: 0;
+    margin-left: 17px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+}
+
+.btn-size .text-title-detail.d{
+    font-family: metropolis3;
+    color: #222222;
+}
+
+.chat .btn-chat .btn{
+    border: 1.5px solid #222222;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 160px;
+    height: 48px;
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.btn-now .btn{
+    font-family: metropolis;
+    background: #DB3022;
+    color: #ffffff;
+    border-radius: 25px
+}
+
+.text3{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.text3.cd{
+    color: #DB3022;
+}
+
+.isi{
+    font-family: metropolis2;
+    line-height: 1.8em;
+    font-style: normal;
+    font-size: 15px;
+    color: #9b9b9b;
+}
+
+.isi p {
+    margin-bottom: 30px;
+}
+
+.rating1 .r1{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    color: #222222;
+}
+.rating1 .r2{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+
+.rating3{
+    margin-left: 64px;
+}
+
+.text-rat{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #9b9b9b;
+    margin-left: 5px;
+    display: inline-block;
+    
+}
+
+.rating3 .btn button{
+    width: 120px;
+    background: #DB3022;
+    border: 1px solid #DB3022;
+}
+
+.rating3 .btn{
+    transform: translateY(-19%);
+}
+
+.progress button{
+    color: #DB3022;
+    width: 180px;
+}
+
+.hrr{
+    background-color: #9B9B9B;
+}
+
+.link-navbarr a{
+    text-decoration: none;
+    color: #9B9B9B;
 }
