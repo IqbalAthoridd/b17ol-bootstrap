@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="./assets/img/Logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+            <form class="form-inline mr-auto">
+                <div class="input-group">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <button><img src="./assets/img/Search.png" alt=""></button>
+                    </div>
+                </div>
+                <button class="filter"><img src="./assets/img/filter 1.svg" alt="" srcset=""></button>
+            </form>
+
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <div class="cart-logo">
+                        <a class="nav-link" href="#"><img src="./assets/img/keranjang.svg" alt=""></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><button class="btn btn-danger button-nav">Login</button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><button class="btn btn-danger button-nav">SignUp</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justfy-content-center cart1">
+            <div class="col-md-12">
+                <div class="text1">MyBag</div>
+            </div>
+        </div>
+        <div class="row cart2">
+            <div class="col-md-8">
+                <div class=" jumbotron selected">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">
+                            <span class="cr"><img class="cr-icon" src="./assets/img/Vector.svg" alt=""></span>
+                        </label>
+                    </div>
+                    <div class="item-jumbo text-selected">Select all item <span>(2 items selected)</span></div>
+                    <div class="item-jumbo button-delete">
+                        <button btn>Delete</button>
+                    </div>
+                </div>
+
+                <div class="jumbotron produk">
+                    <div class="d-flex align-items-center">
+                        <div class="checkbox prod">
+                            <label>
+                                <input type="checkbox" value="">
+                                <span class="cr"><img class="cr-icon" src="./assets/img/Vector.svg" alt=""></span>
+                            </label>
+                        </div>
+                        <div class="tubnail">
+                            <div class="image"></div>
+                        </div>
+
+                        <div class="name-product">
+                            <span class="text1">Men's formal suit - Black</span>
+                            <span class="text2">Zalora Cloth</span>
+                        </div>
+                        <div class="button-add">
+                            <button class="btn rounded-circle min"><img src="./assets/img/Rectangle 605.svg"
+                                    alt=""></button>
+                            <span>1</span>
+                            <button class="btn rounded-circle plus"><img src="./assets/img/Shape.svg" alt=""></button>
+                        </div>
+
+                        <div class="price">
+                            <span>$ 20.0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jumbotron produk">
+                    <div class="d-flex align-items-center">
+                        <div class="checkbox prod">
+                            <label>
+                                <input type="checkbox" value="">
+                                <span class="cr"><img class="cr-icon" src="./assets/img/Vector.svg" alt=""></span>
+                            </label>
+                        </div>
+                        <div class="tubnail">
+                            <div class="image"></div>
+                        </div>
+
+                        <div class="name-product">
+                            <span class="text1">Men's formal suit - Black</span>
+                            <span class="text2">Zalora Cloth</span>
+                        </div>
+                        <div class="button-add">
+                            <button class="btn rounded-circle min"><img src="./assets/img/Rectangle 605.svg"
+                                    alt=""></button>
+                            <span>1</span>
+                            <button class="btn rounded-circle plus"><img src="./assets/img/Shape.svg" alt=""></button>
+                        </div>
+
+                        <div class="price">
+                            <span>$ 20.0</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 buy shadow rounded">
+                <div class="pay1 mb-4">
+                    <span>Shopping sumary</span>
+                </div>
+                <div class="total-price d-flex justify-content-between">
+                    <div class="total-price-text ">
+                        <span>Total Price</span>
+                    </div>
+                    <div class="text-price mb-4">
+                        <span>$ 40.0</span>
+                    </div>
+                </div>
+                <div class="btn-buy">
+                    <button class="btn btn-block rounded-pill buy">Buy</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

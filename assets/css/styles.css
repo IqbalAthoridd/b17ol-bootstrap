@@ -288,14 +288,19 @@ margin-bottom: 40px;
     padding-bottom: 34px;
 }
 
+.navbar .navbar-nav .nav-item{
+    margin-bottom: 5px;
+}
+
 .navbar .navbar-nav .nav-item .cart-logo{
     margin-right: 40px;
-    padding-top: 7px;
+    padding-top: 10px;
 }
 .nav{
     margin-bottom: 47px;
 }
 
+/*Slider*/
 .container .row.slider{
     margin-top: 47px;
     margin-bottom: 60px;
@@ -305,6 +310,7 @@ margin-bottom: 40px;
     margin-bottom: 25px;
 }
 
+/*Card*/
 .container .row.cards .card{
     display: inline-block;
     /* border-bottom-left-radius: 8px;
@@ -332,7 +338,7 @@ margin-bottom: 40px;
 
 .container .row.cards .card .card-body .isi.title{
     font-family: metropolis3;
-    ont-style: normal;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -369,7 +375,7 @@ margin-bottom: 40px;
     color: #9b9b9b;
 }
 
-.container .row.label span{
+.container .text1{
     font-family: Metropolis3;
     font-size: 34px;
     line-height: 34px;
@@ -385,4 +391,241 @@ margin-bottom: 40px;
     color: #9b9b9b;
 }
 
+/*Cart*/
+.container .row.cart1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
+.checkbox{
+    position: relative;
+    display: inline-block;
+    transform: translateY(15%);
+    
+}
+
+
+.checkbox label{
+    margin: 0;
+}
+.checkbox label:after {
+    content: '';
+  }
+  
+  .checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+  
+  .checkbox img.cr-icon {
+    position: absolute;
+    line-height: 0;
+    border-radius: 4px;
+    width: 20px;
+    padding: 4px 4px 3px 2px;
+    
+  }
+  
+  .checkbox label input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkbox label input[type="checkbox"]+.cr>.cr-icon {
+    background-color: #DB3022;
+    opacity: 0;
+  }
+  
+  .checkbox label input[type="checkbox"]:checked+.cr>.cr-icon {
+    border: none;
+    opacity: 1;
+  }
+
+.container .row.cart2 .jumbotron{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    padding: 0;
+    background: #ffffff;
+}
+
+
+.container .row.cart2 .jumbotron.selected{ 
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+.container .row.cart2 .jumbotron.selected .item-jumbo{
+    display: inline-block;
+    
+}
+
+.container .row.cart2 .jumbotron.selected .text-selected{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.container .row.cart2 .jumbotron.selected .text-selected span{
+    color: #9B9B9B;
+}
+
+.container .row.cart2 .jumbotron.selected .button-delete{
+    float: right;
+    
+}
+
+.container .row.cart2 .jumbotron.selected .button-delete button{
+    background: #FFFFFF;
+    border: none;
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #DB3022;
+}
+
+.container .row.cart2 .jumbotron.selected .button-delete button:focus{
+    outline: none;
+}
+
+.container .row.cart2 .jumbotron.produk{
+    padding: 32px 24px 25px 24px;
+    margin-bottom: 10px;
+}
+
+.container .row.cart2 .tubnail{
+    display: inline-block;
+    padding: 0px 16px;
+    width: 103px;
+    height: 69px;
+    margin-left: 12px;
+}
+
+.container .row.cart2 .tubnail .image {
+    width: 70px;
+    height: 69px;
+    background-image: url("../img/jas.jpg") ;
+    background-position-x: center;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+
+.container .row.cart2 .jumbotron.produk .name-product{
+    width: 255px;
+}
+
+.container .row.cart2 .jumbotron.produk .name-product span{
+    display: block;
+}
+
+.container .row.cart2 .jumbotron.produk .name-product span.text1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.container .row.cart2 .jumbotron.produk .name-product span.text2{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+
+.container .row.cart2 .jumbotron.produk .button-add .btn{
+    height: 36px;
+    width: 36px;
+}
+
+.container .row.cart2 .jumbotron.produk .button-add .btn.min{
+    margin-right: 17px;
+    background: #D5D5D5;
+    padding: 2px 20px 30px 10px;
+}
+.container .row.cart2 .jumbotron.produk .button-add span{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.container .row.cart2 .jumbotron.produk .button-add .btn.plus{
+    padding-top: 0;
+    margin-left: 17px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+}
+
+.container .row.cart2 .jumbotron.produk .price span{
+    ont-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.container .row.cart2 .jumbotron.produk .price{
+    margin-left: 70px;    
+}
+
+
+.container .col-md-4.buy{
+    padding: 24px;
+    height: max-content;
+}
+
+.container .pay1 span{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222 ;
+}
+
+.container .total-price .total-price-text span{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.container .total-price .text-price span{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.container .btn-buy .btn{
+    background: #DB3022;
+    color: #FFFFFF;
+}
+.container .btn-buy .btn:hover{
+    background: #b82d20;
+}
+
+.container .btn-buy .btn:active,
+.container .btn-buy .btn:focus{
+    background: #a7271b;
+    box-shadow: none;
+}
