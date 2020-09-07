@@ -941,7 +941,7 @@ margin-bottom: 40px;
 }
 
 .text5{
-    ont-family: Metropolis;
+    font-family: Metropolis3;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -967,3 +967,91 @@ margin-bottom: 40px;
     font-size: 14px;
     line-height: 20px;  
 }
+
+.user img{
+
+}
+
+.btn-change .btn{
+    background: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+
+
+.text6{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+
+.btn.user{
+    background: #456BF3;
+   
+}
+.btn.loc{
+    background: #F36F45;
+}
+
+.btn.order{
+    background: #F3456F;
+}
+
+.nav-sidebar button{
+    width: 32px;
+    height: 32px;
+    padding: 0 10px 10px 7px;
+}
+.nav-sidebar{
+    margin-top: 70px;
+}
+.nav-sidebar span{
+    margin-left: 14px;
+}
+
+.text7{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+
+.nav-sidebar a{
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
+.nav-sidebar a:focus,
+.nav-sidebar a:active
+{
+    color: #222222;
+    
+}
+
+.col-md-9.con{
+    background-color: #F5F5F5;
+    padding: 50px 0px 114px 45px;
+}
+.my-profil{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+form.profil  label{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a9a9a9;
+    text-align: right;
+    
+}
+
+
+
