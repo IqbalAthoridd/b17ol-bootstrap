@@ -572,7 +572,7 @@ margin-bottom: 40px;
 }
 
 .container .row.cart2 .jumbotron.produk .price span{
-    ont-family: Metropolis3;
+    font-family: Metropolis3;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -821,3 +821,274 @@ margin-bottom: 40px;
     text-decoration: none;
     color: #9B9B9B;
 }
+
+.text-title-detail.ck{
+    color: #222222;
+    font-family: metropolis3;
+}
+
+.price-ck{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+    
+}
+
+.jumbotron.adress{
+    padding: 30px 35px 30px 30px;
+}
+
+
+.container .row.checkout .jumbotron{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    padding: 0;
+    background: #ffffff;
+}
+
+.container .row.checkout .tubnail{
+    display: inline-block;
+    padding: 0px 16px;
+    width: 103px;
+    height: 69px;
+    margin-left: 12px;
+}
+
+.container .row.checkout .tubnail .image {
+    width: 70px;
+    height: 69px;
+    background-image: url("../img/jas.jpg") ;
+    background-position-x: center;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+
+.container .row.checkout .jumbotron.produk .name-product{
+    width: 255px;
+}
+
+.container .row.checkout .jumbotron.produk .name-product span{
+    display: block;
+}
+
+.container .row.checkout .jumbotron.produk .name-product span.text1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.container .row.checkout .jumbotron.produk .name-product span.text2{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+
+.container .row.checkout .jumbotron.produk{
+    padding: 32px 42px 25px 14px;
+}
+
+.container .row.checkout .jumbotron.adress{
+    padding: 30px 35px 30px 30px;
+}
+
+.adress-text{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.btn-adress .btn{
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    border-radius: 24px;
+    height: 36px;
+    width: 210px;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+
+.col-md-4.sumary{
+    padding: 24px 24px 32px 24px;
+    height: 256px;
+}
+
+.text4{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.text5{
+    font-family: Metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.hrr hr{
+    color: #9B9B9B;
+    background-color: #9B9B9B;
+    border: 1px solid #D5D5D5;
+}
+
+.text5.red{
+    color: #DB3022;
+}
+
+.btn-payment .btn{
+    background-color: #DB3022;
+    color: #ffffff;
+    font-family: metropolis2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;  
+}
+
+.user img{
+
+}
+
+.btn-change .btn{
+    background: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+
+
+.text6{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+
+.btn.user{
+    background: #456BF3;
+   
+}
+.btn.loc{
+    background: #F36F45;
+}
+
+.btn.order{
+    background: #F3456F;
+}
+
+.nav-sidebar button{
+    width: 32px;
+    height: 32px;
+    padding: 0 10px 10px 7px;
+}
+.nav-sidebar{
+    margin-top: 70px;
+}
+.nav-sidebar span{
+    margin-left: 14px;
+}
+
+.text7{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B9B9B;
+}
+
+.nav-sidebar a{
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
+.nav-sidebar a:focus,
+.nav-sidebar a:active
+{
+    color: #222222;
+    
+}
+
+.col-md-8.con{
+    /* background-color: #F5F5F5; */
+    padding: 50px 0px 114px 45px;
+}
+
+/* body.bg{
+    background-color: #F5F5F5;
+} */
+
+.col-md-8.fm{
+    
+}
+.my-profil{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+form.profil  label{
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a9a9a9;
+    text-align: right;
+    padding: 7px 15px 7px 0;
+    
+}
+
+form.profil legend{
+    nt-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a9a9a9;
+    text-align: right;
+}
+
+form.profil .btn{
+    width: 100px;
+    height: 36px;
+    background: #DB3022;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.sidebar {
+    background: #FFFFFF;
+}
+
+
+
+
+
