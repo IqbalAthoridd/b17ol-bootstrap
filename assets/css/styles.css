@@ -1033,9 +1033,17 @@ margin-bottom: 40px;
     
 }
 
-.col-md-9.con{
-    background-color: #F5F5F5;
+.col-md-8.con{
+    /* background-color: #F5F5F5; */
     padding: 50px 0px 114px 45px;
+}
+
+/* body.bg{
+    background-color: #F5F5F5;
+} */
+
+.col-md-8.fm{
+    
 }
 .my-profil{
     background-color: #ffffff;
@@ -1050,8 +1058,37 @@ form.profil  label{
     line-height: 24px;
     color: #a9a9a9;
     text-align: right;
+    padding: 7px 15px 7px 0;
     
 }
+
+form.profil legend{
+    nt-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a9a9a9;
+    text-align: right;
+}
+
+form.profil .btn{
+    width: 100px;
+    height: 36px;
+    background: #DB3022;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.sidebar {
+    background: #FFFFFF;
+}
+
+
 
 
 
